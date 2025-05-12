@@ -8,7 +8,7 @@ const app = express();
 // Middleware
 app.use(cors({
   origin: [
-    'https://formulario-web-frontend.onrender.com', // URL de tu frontend en Render
+    'https://frontend-register-gryn.onrender.com', // URL de tu frontend en Render
     'http://localhost:3000',                        // Para desarrollo local
     'http://localhost:5000'                         // Alternativa local
   ],
